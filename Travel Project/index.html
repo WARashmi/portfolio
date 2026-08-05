@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" />
+    
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header-section">
+        <div class="container">
+          <div class="navi-bar">
+            <div class="logo">
+              <img src="images/logo.png" alt="Logo" />
+            </div>
+            <div class="main-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      </header>
+
+      <section class="mobile-header">
+        <div class="logo">
+        <img src="./images/logo.png" alt="logo">
+        </div>
+        <div class="humberger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i>
+        </div>
+        <nav id="navLinks">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#"></a>
+        </nav>
+
+
+      </section> 
+
+      <section class="home-page-slider">
+      </section>
+
+      <section class="services">
+        <div class="container">            
+              <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="images/icon1.png" alt="Service 1" />
+                        <h3>Travel You Can Trust</h3>
+                        <p>Enjoy safe, reliable, and unforgettable journeys with trusted travel experiences.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="images/icon2.png" alt="Service 2" />
+                        <h3>Exploring Made Easy</h3>
+                        <p>Discover new destinations effortlessly with simple planning and helpful travel guidance</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="images/icon3.png" alt="Service 3" />
+                        <h3>Enjoy Deals & Delights</h3>
+                        <p>Discover new destinations effortlessly with simple planning and helpful travel guidance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="images/icon4.png" alt="Service 3" />
+                        <h3>Discover the Possibilities</h3>
+                        <p>Explore new places, create unforgettable memories, and make every journey extraordinary.</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Top destination For Your Next Vacation</h2>
+            </div>
+          </div>
+          
+          <div class="owl-carousel">
+          <div class="item"><img src="images/carol1.png" alt="Slider 1" />
+          <div class="contents">
+            <h3>Rome</h3>
+            <p>Discover the Rome with our special tours</p>
+            <button class="btn">See All Tours</button>
+          </div>
+          </div>                
+          
+          <div class="item"><img src="images/carol2.png" alt="Slider 2" />
+          <div class="contents">
+            <h3>Barcelona</h3>
+            <p>Discover the Rome with our special tours</p>
+            <button class="btn">See All Tours</button>
+          </div></div>
+          <div class="item"><img src="images/carol3.png" alt="Slider 3" />
+          <div class="contents">
+            <h3>Swiss Alps</h3>
+            <p>Discover the Rome with our special tours</p>
+            <button class="btn">See All Tours</button>
+          </div></div>
+          <div class="item"><img src="images/carol4.png" alt="Slider 4" />
+          <div class="contents">
+            <h3>Paris</h3>
+            <p>Discover the Rome with our special tours</p>
+            <button class="btn">See All Tours</button>
+          </div></div>
+          <div class="item"><img src="images/carol5.png" alt="Slider 5" />
+          <div class="contents">
+            <h3>Bali</h3>
+            <p>Discover the Bali with our special tours</p>
+            <button class="btn">See All Tours</button>
+          </div></div>
+          <div class="item"><img src="images/carol6.png" alt="Slider 6" />
+          <div class="contents">
+            <h3>India</h3>
+            <p>Discover the India with our special tours</p>
+            <button class="btn">See All Tours</button>
+          </div></div>
+        
+        </div>
+      </div>
+        </div>
+        </section>
+
+        <section class=" locations">
+          <div class="container">
+            <h2>Trip ideas to inspire you</h2>
+            <div class="row">
+              <div class="col">
+                <div class="image">
+                <img src="./images/carol4.png" alt="">
+                <div class="content">
+                  <h3>Rome</h3>
+                  <p>Italy's capital city, Rome is also known for a history that dates back to the eras of Octavian, Julius Caesar</p>
+                  <button class="btn">See All Activities</button>
+                </div>
+              </div>
+              </div>
+
+              <div class="col">
+                <div class="image">
+                <img src="./images/Barcelona.png" alt="">
+                <div class="content">
+                  <h2>Barcelona</h2>
+                  <p>Barcelona contains both the authentically historic and the wildly bizarre</p>
+                  <button class="btn">See All Activities</button>
+                </div>
+              </div>
+              </div>
+            </div>            
+          </div>
+        </section>
+
+        <section class="blog">
+          <div class="container">
+            <h2>Latest Blog Posts</h2>
+              <div class="row">
+              <div class="col">
+                <div class="card">
+                  <img src="./images/carol5.png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/blog1.png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/Barcelona.png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card">
+                  <img src="./images/clipboard-image (21).png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card">
+                  <img src="./images/clipboard-image (19).png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+           
+              
+            </div>
+            <div class="row row-two">
+              <div class="col">
+                <div class="card">
+                  <img src="./images/carol5.png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/blog1.png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/Barcelona.png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/clipboard-image (21).png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/clipboard-image (19).png" alt="">
+                  <div class="meta-data">
+                    <small><i class="fa-solid fa-location-dot"></i>China</small>
+                    <small><i class="fa-solid fa-calendar-days"></i>2026 February 16</small>
+                    <small><i class="fa-solid fa-user-tie"></i>By Admin</small>
+                  </div>
+                  <div class="content">
+                    <h3>Small GroupTour : Summer Place</h3>
+                  <p>Rome, Italy is a breathtaking mix of ancient history, world-class art, and unparalleled culinary delights. This hyper-local blog guide covers the exact monuments to see, where to eat the best authentic Roman street food, and how to navigate the city to maximize your stay.</p>    
+                  <button class="btn">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                  </div>              
+                </div>
+              </div>             
+            </div>         
+          </div>
+        </section>
+
+        <section class="newsletter">
+          <div class="container">
+          <div class="main-wrapper">
+            <div class="content-wrapper">
+              <h2>Subscribe & Get 25% off</h2>
+              <p>Join Our newsletter and discover new destinations to inspire the traveler within. Plus get 25% off at our online shop. Every week you’ll receive expert advice , tips, exclusive offers, and much more </p>
+              <div class="input-area">
+                <input type="text" id="email" placeholder="Your Email Address"/>
+                <button class="btn">Sign Up</button>
+              </div>
+            </div>
+
+          </div>
+          </div>
+        </section>
+
+        <section class="gallery">
+          <div class="row">
+                        <div class="col">
+              <img src="./images/clipboard-image (19).png" alt="">
+            </div>
+                        <div class="col">
+              <img src="./images/clipboard-image (20).png" alt="">
+            </div>
+                        <div class="col">
+              <img src="./images/clipboard-image (21).png" alt="">
+            </div>
+                        <div class="col">
+              <img src="./images/clipboard-image (18).png" alt="">
+            </div>
+                        <div class="col">
+              <img src="./images/clipboard-image (19).png" alt="">
+            </div>
+            <div class="col">
+              <img src="./images/clipboard-image (21).png" alt="">
+            </div>
+            <div class="col">
+              <img src="./images/clipboard-image (19).png" alt="">
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-1">
+                <div class="logo">
+                  <img src="./images/logo.png" alt="footer logo">
+                </div>
+                
+                <p class="text"><b>Don't just get there, get there in style</b></p>
+                <div class="contact">
+                  <p><i class="fa-solid fa-location-dot"></i>&nbsp; &nbsp;1901, Kelani rd, Colombo, Sri Lanka</p>
+                  <p><i class="fa-solid fa-phone"></i>&nbsp; &nbsp;(+99)2 71 05 1472</p>
+                  <p><i class="fa-solid fa-at"></i>&nbsp; &nbsp;travel@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-2">
+                <p class="title"><b>Top Destination</b></p>
+                <ul>
+                  <li>Sri lanka</li>
+                  <li>Japan</li>
+                  <li>America</li>
+                  <li>Bali</li>
+                </ul>
+
+              </div>
+              <div class="col-3">
+                    <p class="title"><b>Information</b></p>
+                <ul>
+                  <li>Help & FAQ</li>
+                  <li>Careers</li>
+                  <li>About Us</li>
+                  <li>Blog</li>
+                </ul>
+
+              </div>
+              <div class="col-4">
+                <p class="title"><b>Follow Us</b></p>
+              <div class="social-media">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <p class="title"><b>Payment Methods</b></p>
+              <div class="image">
+                <img src="./images/payment method.png" alt="payment methods">
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        
+
+        
+      <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    responsiveClass:true,
+    autoPlay:true,
+    navigation: true,
+    Pagination: true,
+    navigationText: ['<', '>'],
+    responsive:{
+        0:{
+            items:1,
+            
+        },
+        600:{
+            items:3,
+          
+        },
+        1200:{
+            items:5,
+            nav:true,       
+          
+        },
+       
+    },
+});
+
+function toggleMenu(){
+  const nav = document.getElementById('navLinks');
+  nav.classList.toggle('active');
+}
+        </script>
+        
+      
+    
+  </body>
+</html>
