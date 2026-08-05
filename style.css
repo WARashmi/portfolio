@@ -154,6 +154,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
+    margin-top: 58px;
 }
 .about-img img {
     padding:25%;
@@ -173,13 +174,13 @@ body{
     font-weight: 600;
     color: white;
     line-height: 1.7;
-    margin: 15px 0 30px;
+    margin: 15px 0 27px;
 }
 .about-text p {
     color: white;
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-right: 5%;
 }
 
