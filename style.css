@@ -542,12 +542,6 @@ section {
     0 0 25px lightseagreen, 0 0 50px lightseagreen,
     0 0 100px lightseagreen, 0 0 200px lightseagreen
 }
-.last-text p{
-    text-align: center;
-    color: aliceblue;
-    font-size: 20px;
-    margin-top: 50px;
-}
 .top {
     position: fixed;
     bottom: 30px;
@@ -697,6 +691,19 @@ section {
     background: lightseagreen;
     transform: scale(1.1);
 }
+.last-text {
+    width: 100%;
+    text-align: center;
+    padding: 20px 15px;
+}
+.last-text p {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 /* Responsive */
 @media(max-width:1920px) and (min-width: 1700px) {
 .home-content h3 {
@@ -727,15 +734,16 @@ section {
 .contact-list li a {
     color: lightseagreen;
 }
-section {
-    display: grid;
- }
+
 }
-@media(max-width:1700px) {
-    .contact-list li a {
-    color: lightseagreen;
+
+@media screen and (max-width: 1700px) {
+.contact-list li a {
+    color: lightseagreen !important;
 }
+
 }
+
 @media(max-width:1200px) {
 .navbar {
     padding-right: 15%;
@@ -918,10 +926,6 @@ section {
 }
 .contact-text h2 {
     margin-bottom: 50px;
-}
-.last-text p {    
-    font-size: 14px;
-    margin-bottom: 10px;
 }
 .filter-buttons {
     gap: 8px;
