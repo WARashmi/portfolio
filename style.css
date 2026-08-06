@@ -667,30 +667,23 @@ section {
     margin-top:15px;
     font-size:18px;
 }
+/* Project Card Background Image */
+.portfolio .row.project-bg {
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
 /* Project Links - Multiple buttons */
 .project-links {
     display: flex;
     gap: 15px;
     margin-top: 20px;
     justify-content: center;
-}
-.project-links a {
-    color: red;
-    font-size: 20px;
-    background: blue;
-    width: 40px;
-    height: 40px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    text-decoration: none;
-    transition: 0.3s ease;
 }
-.project-links a:hover {
-    background: lightseagreen;
-    transform: scale(1.1);
-}
+
+
 .last-text {
     width: 100%;
     text-align: center;
