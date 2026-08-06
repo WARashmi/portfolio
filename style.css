@@ -529,10 +529,10 @@ section {
 .contact-form form .send {
     display: inline-block;
     padding: 14px 60px;
-    background-color: #0e4c7b;
+    background-color: #0ee3d8;
     border-radius: 40px;
     font-size: 14px;
-    color: rgb(235, 232, 232);
+    color: rgb(0 0 0);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -673,7 +673,30 @@ section {
     margin-top:15px;
     font-size:18px;
 }
-
+/* Project Links - Multiple buttons */
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.project-links a {
+    color: red;
+    font-size: 20px;
+    background: blue;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.project-links a:hover {
+    background: lightseagreen;
+    transform: scale(1.1);
+}
 /* Responsive */
 @media(max-width:1920px) and (min-width: 1700px) {
 .home-content h3 {
@@ -701,9 +724,17 @@ section {
 .home-content .btn-box {
     font-size: 20px;
 }
+.contact-list li a {
+    color: lightseagreen;
+}
 section {
     display: grid;
  }
+}
+@media(max-width:1700px) {
+    .contact-list li a {
+    color: lightseagreen;
+}
 }
 @media(max-width:1200px) {
 .navbar {
@@ -723,6 +754,9 @@ section {
 }
 .home {
     padding: 100px 20px;
+}
+.contact-list li a {
+    color: rgb(32, 39, 178);
 }
 .about-text p {
     margin-bottom: 3rem;
@@ -801,7 +835,7 @@ section {
 }
 .contact-icons i {
     border: 2px solid #370aa9;
-    color: #370aa9;
+    color: #0a54a9;
     font-size: 30px;
     width: 50px;
     height: 50px;
@@ -907,8 +941,18 @@ section {
         border-radius: 100px;
     }
     .home-content h1 {
-        font-size: 40px;
+        font-size: 26px;
     }
+    .home-content h3 {
+        font-size: 22px;
+    }
+    .home-content p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .home-content .text {
+    font-size: 18px;
+}
     .navbar.open{
         padding-right: inherit;
     }
